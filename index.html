@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="icon" href="/favicon.ico">
+  <title>Code for IATI Analytics</title>
+
+  
+</head>
+<body>
+<div id="wrap">
+  <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand" data-c4i-toggle="sidebar" aria-controls="c4i-sidebar" aria-expanded="false" aria-label="Toggle Code for IATI sidebar"><img src="https://codeforiati.org/assets/img/logo.png" alt="Code for IATI" /></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/">Home</a></li>
+          
+          <li ><a href="/headlines.html">Headlines</a></li>
+          
+          <li ><a href="/data_quality.html">Data Quality</a></li>
+          
+          <li ><a href="/publishing_stats.html">Publishing Statistics</a></li>
+          
+          <li ><a href="/exploring_data.html">Exploring Data</a></li>
+          
+          <li ><a href="/faq.html">FAQ</a></li>
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+        
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+  <div class="container">
+    
+      
+        <div class="page-header">
+          
+          <h1>Code for IATI Analytics</h1>
+          <p class="lead">Statistics, charts and metrics on data accessed via the IATI Registry.</p>
+          
+          
+        </div>
+      
+
+      
+    <div class="row">
+
+    <div class="col-md-6">
+    
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+            About
+        </h3>
+      </div>
+      <div class="panel-body">
+        
+<p>These analytics are generated daily, with the last update based on data in the IATI Registry on <strong>24 February 2025 (at 00:00 UTC)</strong>. For more information, see the <a href="/faq.html">FAQ</a>.</p>
+<p>Many of the tables are sortable by clicking on the headers.</p>
+<p>Many of the datasets are available in machine readable JSON format. Some links to JSON are abbreviated to <code>(J)</code>.</p>
+
+      </div>
+    </div>
+    
+
+<div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+            Overview
+        </h3>
+      </div>
+    <table class="table table-striped">
+        <tbody>
+            <tr>
+                <td id="activities-count">
+                    <a href="/activities.html">
+                    844146
+                    </a>
+                </td>
+                <td>Activities</td>
+            </tr>
+            <tr>
+                <td id="unique-activities-count">
+                    <a href="/activities.html">
+                    831661
+                    </a>
+                </td>
+                <td>Unique Activities</td>
+            </tr>
+            <tr>
+                <td id="publishers-count">
+                    <a href="/publishers.html">
+                    1741
+                    </a>
+                </td>
+                <td>Publishers</td>
+            </tr>
+            <tr>
+                <td id="activity-files-count">
+                    <a href="/files.html">
+                    9299
+                    </a>
+                </td>
+                <td>Activity Files</td>
+            </tr>
+            <tr>
+                <td id="organisation-files-count">
+                    <a href="/files.html">
+                    1204
+                    </a>
+                </td>
+                <td>Organisation Files</td>
+            </tr>
+            <tr>
+                <td id="total-file-size">
+                    <a href="/files.html">
+                    12.6 GB
+                    </a>
+                </td>
+                <td>Total File Size</td>
+            </tr>
+            <tr>
+                <td id="failed-download-count">
+                    <a href="/download.html">
+                    798
+                    </a>
+                </td>
+                <td>Files Fail to Download</td>
+            </tr>
+            <tr>
+                <td id="poorly-formed-xml-file-count">
+                    <a href="/xml.html">
+                    58
+                    </a>
+                </td>
+                <td>Files where XML is not well-formed</td>
+            </tr>
+            <tr>
+                <td id="non-standard-roots-file-count">
+                    <a href="/xml.html">
+                    3
+                    </a>
+                </td>
+                <td>Files with Nonstandard Roots</td>
+            </tr>
+            <tr>
+                <td id="too-large-files-count">
+                    0
+                </td>
+                <td>Files that are too large to be processed</td>
+            </tr>
+            <tr>
+                <td id="cannot-validate-file-count">
+                    <a href="/validation.html">
+                    399
+                    </a>
+                </td>
+                <td>Files don't validate against the schema</td>
+            </tr>
+            <tr>
+                <td id="publishers-with-non-valid-files-count">
+                    <a href="/validation.html">
+                    153
+                    </a>
+                </td>
+                <td>Publishers have non-validating files</td>
+            </tr>
+            <tr>
+                <td id="publishers-with-no-org-file-count">
+                    <a href="/organisation.html">
+                    561
+                    </a>
+                </td>
+                <td>Publishers with no organisation file</td>
+            </tr>
+        </body>
+    </table>
+</div>
+
+
+    </div>
+
+    <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+            Contents
+        </h3>
+      </div>
+      <ul class="list-group">
+      
+        <li class="list-group-item">
+        <h4><a href="/headlines.html">Headlines</a></h4>
+        <p>What is the size, scope and scale of published IATI data?</p>
+        </li>
+      
+        <li class="list-group-item">
+        <h4><a href="/data_quality.html">Data Quality</a></h4>
+        <p>What needs fixing in IATI data?</p>
+        </li>
+      
+        <li class="list-group-item">
+        <h4><a href="/publishing_stats.html">Publishing Statistics</a></h4>
+        <p></p>
+        </li>
+      
+        <li class="list-group-item">
+        <h4><a href="/exploring_data.html">Exploring Data</a></h4>
+        <p>Which parts of the IATI Standard are being used?</p>
+        </li>
+      
+        <li class="list-group-item">
+        <h4><a href="/faq.html">Frequently Asked Questions</a></h4>
+        <p></p>
+        </li>
+      
+      </ul>
+    </div>
+    </div>
+
+    </div>
+
+
+    
+  </div><!-- /.container -->
+
+</div>
+
+<div id="footer">
+    <div class="container">
+        <p class="text-muted">
+          <a href="https://github.com/codeforIATI/analytics/tree/8b9e94612e0dade8b91dbc338e0ac41881e4bf94">Source code</a>.
+
+          <a href="https://github.com/codeforIATI/analytics/issues?state=open">Report bugs, and request features using Github issues</a>.<br/>
+
+          Generated on <em>24 February 2025 (at 06:46 UTC)</em> from data downloaded on <em>24 February 2025 (at 00:00 UTC)</em>.<br/>
+
+          (NB This is the time the download task started. Any changes made after this time may not be reflected).<br />
+
+          For details on how often these updates are applied, see the <a href="/faq.html">Code for IATI Analytics FAQ</a>.
+    </div>
+</div>
+
+<script src="//codeforiati.org/sidebar/sidebar.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.13.3/jquery.tablesorter.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.13.3/jquery.tablesorter.widgets.min.js"></script>
+<script>$(function() { $("table.table").tablesorter({ widgets: ['stickyHeaders'] }); });</script>
+  
+</body>
+</html>

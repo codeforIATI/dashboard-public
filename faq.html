@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="icon" href="/favicon.ico">
+  <title>Frequently Asked Questions – Code for IATI Analytics</title>
+
+  
+</head>
+<body>
+<div id="wrap">
+  <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand" data-c4i-toggle="sidebar" aria-controls="c4i-sidebar" aria-expanded="false" aria-label="Toggle Code for IATI sidebar"><img src="https://codeforiati.org/assets/img/logo.png" alt="Code for IATI" /></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li ><a href="/">Home</a></li>
+          
+          <li ><a href="/headlines.html">Headlines</a></li>
+          
+          <li ><a href="/data_quality.html">Data Quality</a></li>
+          
+          <li ><a href="/publishing_stats.html">Publishing Statistics</a></li>
+          
+          <li ><a href="/exploring_data.html">Exploring Data</a></li>
+          
+          <li class="active"><a href="/faq.html">FAQ</a></li>
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+        
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+  <div class="container">
+    
+      
+        <div class="page-header">
+          
+          <h1>Frequently Asked Questions</h1>
+          
+          
+          
+        </div>
+      
+
+      
+
+    <div class="row">
+      <div class="col-xs-12">
+<h3>Who provides Code for IATI Analytics?</h3>
+<p>This fork of the original IATI Dashboard is maintained by <a href="https://codeforiati.org/">Code for IATI</a> volunteers. The IATI Dashboard grew out of various projects to track and provide metrics for how IATI data is published and how the IATI Standard is used in practice.</p>
+
+<h3>When is this site updated updated?</h3>
+<p>Code for IATI Analytics is generated daily.</p>
+<p>This is a two step process:</p>
+<ol>
+<li>First the data that is linked to from the IATI Registry is downloaded - see the “data downloaded” timestamp in the footer of each page.</li>
+<li>From this dataset, the relevant statistics are calculated, and this site is then updated - see the “generated” timestamp in footer.</li>
+</ol>
+
+<h3>Why is there a difference between the data download and generation time?</h3>
+<p>The data is downloaded, and then there is a period of computing time to generate the statistics.</p>
+<p>Usually, there is a short period of time between the two. However, we do track this as sometimes the site may fail to regenerate. If you spot something, please also let us know by <a href="https://github.com/codeforIATI/analytics/issues">creating an issue on github</a>.</p>
+
+<h3>Does a graph going up or down mean something good?</h3>
+<p>No. There may be a number of reasons why a certain graph or number rises or falls. It is not necessarily anything to do with the setup of the IATI publisher.</p>
+<p>Therefore, we stress to treat the graphs, numbers and statistics on this site with <strong>caution, context and consideration</strong>.</p>
+<p>Should you think something is really wrong, please let us know by <a href="https://github.com/codeforIATI/analytics/issues">creating an issue on github</a>.</p>
+
+<h3>Can I build my own version of this site?</h3>
+<p>Yes - the source code is all open source:</p>
+<ol>
+<li><a href="https://github.com/codeforIATI/IATI-Stats">https://github.com/codeforIATI/IATI-Stats</a>.</li>
+<li><a href="https://github.com/codeforIATI/analytics">https://github.com/codeforIATI/analytics</a>.</li>
+</ol>
+<p>We advise you to check through the technical specifications.</p>
+
+<h3>How can I suggest a new function?</h3>
+<p>Ideally, we’d suggest to check through <a href="https://github.com/codeforIATI/analytics/issues">the list of issues we have logged in our Github repositories</a>.</p>
+
+<h3>We’ve published/updated our IATI data, but the numbers haven’t updated.</h3>
+<p>We’d suggest two initial checks:</p>
+
+<ol>
+<li>Is the data registered on the IATI Registry?</li>
+<li>Has this site updated since you published (check the timestamps in the footer of this page)?</li>
+</ol>
+
+<p>Should you still believe that data is missing, we’d love to hear from you - please contact us by <a href="https://github.com/codeforIATI/analytics/issues">creating an issue on github</a>.</p>
+
+
+<h3>I want to get to the raw data of a publisher - how can I do that?</h3>
+<p>Two ways:</p>
+<ol>
+<li>Visit the IATI Registry and access the relevant links to the XML files - these links are often found on the relevant page.</li>
+<li>Try a query via the <a href="https://datastore.codeforiati.org">IATI Datastore Classic</a></li>
+</ol>
+</div>
+</div>
+
+
+
+    
+  </div><!-- /.container -->
+
+</div>
+
+<div id="footer">
+    <div class="container">
+        <p class="text-muted">
+          <a href="https://github.com/codeforIATI/analytics/tree/8b9e94612e0dade8b91dbc338e0ac41881e4bf94">Source code</a>.
+
+          <a href="https://github.com/codeforIATI/analytics/issues?state=open">Report bugs, and request features using Github issues</a>.<br/>
+
+          Generated on <em>24 February 2025 (at 06:57 UTC)</em> from data downloaded on <em>24 February 2025 (at 00:00 UTC)</em>.<br/>
+
+          (NB This is the time the download task started. Any changes made after this time may not be reflected).<br />
+
+          For details on how often these updates are applied, see the <a href="/faq.html">Code for IATI Analytics FAQ</a>.
+    </div>
+</div>
+
+<script src="//codeforiati.org/sidebar/sidebar.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.13.3/jquery.tablesorter.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.13.3/jquery.tablesorter.widgets.min.js"></script>
+<script>$(function() { $("table.table").tablesorter({ widgets: ['stickyHeaders'] }); });</script>
+  
+</body>
+</html>

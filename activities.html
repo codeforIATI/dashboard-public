@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="icon" href="/favicon.ico">
+  <title>IATI Activities – Code for IATI Analytics</title>
+
+  
+</head>
+<body>
+<div id="wrap">
+  <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand" data-c4i-toggle="sidebar" aria-controls="c4i-sidebar" aria-expanded="false" aria-label="Toggle Code for IATI sidebar"><img src="https://codeforiati.org/assets/img/logo.png" alt="Code for IATI" /></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li ><a href="/">Home</a></li>
+          
+          <li class="active"><a href="/headlines.html">Headlines</a></li>
+          
+          <li ><a href="/data_quality.html">Data Quality</a></li>
+          
+          <li ><a href="/publishing_stats.html">Publishing Statistics</a></li>
+          
+          <li ><a href="/exploring_data.html">Exploring Data</a></li>
+          
+          <li ><a href="/faq.html">FAQ</a></li>
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+        
+            <li><a href="/publishers.html">Publishers</a></li>
+        
+            <li><a href="/files.html">Files</a></li>
+        
+            <li class="active"><a href="/activities.html">Activities</a></li>
+        
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+  <div class="container">
+    
+      
+        <div class="page-header">
+          
+          <h1>IATI Activities</h1>
+          <p class="lead">How many IATI activities are published?</p>
+          <p>Activities are the individual projects found in files.  A file can contain one or many activities, from a publisher.</p>
+          
+        </div>
+      
+
+      
+    <div class="row">
+      
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              
+              <span id="total-activities" class="title-number">844,146</span>
+              <span class="title-text">Total activities</span>
+            </h3>
+            
+            <a href="https://stats.codeforiati.org/gitaggregate-dated/activities.json" style="float:right">(J)</a>
+            
+            <div class="clearfix"></div>
+          </div>
+          <div class="panel-body">
+            <p>Total count of activities across all publishers, over time.
+        Note: this includes activities with duplicate <code>iati-identifier</code></p>
+            <img src="activities.png" width="100%" />
+            
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              
+              <span id="unique-activities" class="title-number">831,661</span>
+              <span class="title-text">Unique Activities</span>
+            </h3>
+            
+            <a href="https://stats.codeforiati.org/gitaggregate-dated/unique_identifiers.json" style="float:right">(J)</a>
+            
+            <div class="clearfix"></div>
+          </div>
+          <div class="panel-body">
+            <p>Total count of unique activities across all publishers, over time
+        Note: this excludes counts of duplicate <code>iati-identifier</code></p>
+            <img src="unique_identifiers.png" width="100%" />
+            
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              
+              <span id="activities-by-publisher-type" class="title-number"></span>
+              <span class="title-text">Activities by publisher type</span>
+            </h3>
+            
+            <div class="clearfix"></div>
+          </div>
+          <div class="panel-body">
+            <p>Count of all activities, aggregated by publisher type, over time.</p>
+            <img src="activities_per_publisher_type.png" width="100%" />
+            
+            <img src="activities_per_publisher_type_legend.png" width="100%" />
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    
+  </div><!-- /.container -->
+
+</div>
+
+<div id="footer">
+    <div class="container">
+        <p class="text-muted">
+          <a href="https://github.com/codeforIATI/analytics/tree/8b9e94612e0dade8b91dbc338e0ac41881e4bf94">Source code</a>.
+
+          <a href="https://github.com/codeforIATI/analytics/issues?state=open">Report bugs, and request features using Github issues</a>.<br/>
+
+          Generated on <em>24 February 2025 (at 06:55 UTC)</em> from data downloaded on <em>24 February 2025 (at 00:00 UTC)</em>.<br/>
+
+          (NB This is the time the download task started. Any changes made after this time may not be reflected).<br />
+
+          For details on how often these updates are applied, see the <a href="/faq.html">Code for IATI Analytics FAQ</a>.
+    </div>
+</div>
+
+<script src="//codeforiati.org/sidebar/sidebar.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.13.3/jquery.tablesorter.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.13.3/jquery.tablesorter.widgets.min.js"></script>
+<script>$(function() { $("table.table").tablesorter({ widgets: ['stickyHeaders'] }); });</script>
+  
+</body>
+</html>
